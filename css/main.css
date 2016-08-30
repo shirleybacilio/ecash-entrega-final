@@ -1,0 +1,459 @@
+/*
+Theme Name: El nombre de tu tema ejemplo. Reinspirit
+Theme URI: La URL de tu tema ej. http://tusitio.com
+Description: Una breve descripción de tu tema
+Version: 1.0 o cualquier otra versión si lo prefieres
+Author: Tu nombre de usuario
+Author URI: Tu dirección web ej. http://tusitio.com
+Tags: Tags para localizar tu tema en el repositorio de temas de WordPress ej. reinspirit, HTML, tema, etc.
+License: GNU General Public License v2.0
+*/
+
+*{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+a{
+	color: #fff !important;
+}
+a:hover{
+	cursor: pointer;
+    -webkit-animation-duration: .3s, 1.5s;
+    animation-duration: .3s, 1.5s;
+    -webkit-animation-delay: 0s, .3s;
+    animation-delay: 0s, .3s;
+    -webkit-animation-timing-function: ease-out, ease-in-out;
+    animation-timing-function: ease-out, ease-in-out;
+    -webkit-animation-iteration-count: 1, infinite;
+    animation-iteration-count: 1, infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-direction: normal, alternate;
+    animation-direction: normal, alternate;
+
+}
+a:visited{
+	color: #0A77BB;
+}
+p{
+	font-size: 1.2em;
+}
+.w-100{
+	width: 100%;
+}
+.border-grey{
+	border: 1px solid #ccc; 
+}
+.list-unstyled{
+	list-style: none;
+}
+.text-14{
+	font-size: 1.4rem;
+}
+.m-auto{
+	margin: auto;
+}
+.mr-14{
+	margin-right: 14px;
+}
+.ml-14{
+	margin-left: 14px;s
+}
+
+.bg-blue{
+	background: #1173B8 !important;
+	background-size: cover;
+}
+.bg-dark-blue{
+	background: #0F4F81;
+}
+.bg-yellow{
+	background: #FAC934;
+	background-size: cover;
+}
+.bg-black{
+	background: #000;
+}
+.bg-white{
+	background: #fff;
+}
+.bg-grey{
+	background: #ccc;
+}
+.bg-soft-grey{
+	background: #E9E9E9 !important;
+}
+.m-7{
+	margin: 7px;
+}
+.pb-7{
+	padding-bottom: 7px;
+}
+.p-7{
+	padding: 7px;
+}
+.p-14{
+	padding: 14px;
+}
+.p-21{
+	padding: 21px;
+}
+.p-25{
+	padding-right: 25%;
+}
+.p-28{
+	padding: 28px;
+}
+.pt-7{
+	padding-top: 7px;
+}
+.pt-14{
+	padding-top: 14px
+}
+.pt-21{
+	padding-top: 21px;
+}
+.pt-28{
+	padding-top: 28px;
+}
+.pt-35{
+	padding-top: 35px;
+}
+.pt-45{
+	padding-top: 45px;
+}
+.pb-7{
+	padding-bottom: 7px;
+}
+.pb-14{
+	padding-bottom: 14px;
+}
+.p-18{
+	padding: 18px;
+}
+.m-5{
+	margin: 5px;
+}
+.pb-21{
+	padding-bottom: 21px;
+}
+.pb-28{
+	padding-bottom: 28px;
+}
+.mb-7{
+	margin-bottom: 7px;
+}
+.mb-14{
+	margin-bottom: 14px;
+}
+.mt-14{
+	margin-top: 14px;
+}
+.mt-100{
+	margin-top: 100px;
+}
+.text-yellow{
+	color: #FAC934 !important;
+}
+.pr-5{
+	padding-right: 5px;
+}
+.pr-14{
+	padding-right: 14px;
+}
+.pl-14{
+	padding-left: 14px;
+}
+.text-white{
+	color: #fff;
+}
+.text-black{
+	color: #000 !important;
+}
+.text-blue{
+	color: #0A77BB;
+}
+.uppercasse{
+	text-transform: uppercase;
+}
+text-bold{
+	font-weight: bold;
+}
+
+.glyphicon-hand-right{
+	font-size: 24px;
+}
+
+.width{
+	width: 1100%;
+}
+.height{
+	height: auto;
+}
+.height-100{
+	height: 100px;
+}
+.height-50{
+	height: 50px;
+}
+/*Navegador*/
+
+.page-wrapper{
+  position: relative;
+}
+.page{
+  position: absolute;
+  width: 100%;
+}
+
+.nav-text{
+	color: #000 !important;
+	padding: 2%;
+	font-size: 3em;
+	background-color: transparent;
+}
+.nav-text-inverse{
+	color: #fff !important;
+	padding: 2%;
+	font-size: 3em;
+}
+.nav-text:hover{
+	color: #FAC934 !important;
+
+}
+
+/*quiero
+.recibir:hover{
+	background: #2570CD;
+}
+.rentabilizar:hover{
+	background: #E2C504;
+	color: #1173B8;
+}
+*/
+.borderless{
+	border-left: 2px solid;
+}
+#respaldo{
+	padding: 6%;
+}
+#quienes-somos{
+	background: url('../img/FONDO--QUIENES-SOMOS.png');
+  width: 100%;
+	padding: 2%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+#staff{
+	padding: 2%;
+}
+
+#footer{
+	padding: 1%; 
+}
+.icon-footer li > i{
+	font-size: 2em;
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+	#quienes-somos{
+		background:  #1173B8;
+	}
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	#quienes-somos{
+		background:  #1173B8;
+	}
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+	#quienes-somos{
+		background:  #1173B8;
+	}
+	.mano img{
+		visibility: hidden;
+	}
+	.renta{
+		visibility: hidden;
+	}
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+	#quienes-somos{
+		background:  #1173B8;
+	}
+	.mano{
+		visibility: hidden;
+	}
+	.renta{
+		visibility: hidden;
+	}
+	.entidades{
+		width: 200px;
+		height: 50px;
+	}
+	
+
+
+}
+.top-head{
+	background: url("../img/slider.png");
+	width: 100%;
+	height: 307px;
+	background-size: 100%;
+}
+
+#fondo-intriga{
+	background: url('../img/lanzamiento.png');
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/*contador de dias*/
+
+#countdown{
+	width: 325px;
+	height: 159px;
+	text-align: center;
+	background: #222;
+	background-image: -webkit-linear-gradient(top, #222, #333, #333, #222); 
+	background-image:    -moz-linear-gradient(top, #222, #333, #333, #222);
+	background-image:     -ms-linear-gradient(top, #222, #333, #333, #222);
+	background-image:      -o-linear-gradient(top, #222, #333, #333, #222);
+	border: 1px solid #111;
+	border-radius: 5px;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+	margin: auto;
+	padding: 24px 0;
+	position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+}
+
+#countdown:before{
+	content:"";
+	width: 8px;
+	height: 65px;
+	background: #444;
+	background-image: -webkit-linear-gradient(top, #555, #444, #444, #555); 
+	background-image:    -moz-linear-gradient(top, #555, #444, #444, #555);
+	background-image:     -ms-linear-gradient(top, #555, #444, #444, #555);
+	background-image:      -o-linear-gradient(top, #555, #444, #444, #555);
+	border: 1px solid #111;
+	border-top-left-radius: 6px;
+	border-bottom-left-radius: 6px;
+	display: block;
+	position: absolute;
+	top: 48px; left: -10px;
+}
+
+#countdown:after{
+	content:"";
+	width: 8px;
+	height: 65px;
+	background: #444;
+	background-image: -webkit-linear-gradient(top, #555, #444, #444, #555); 
+	background-image:    -moz-linear-gradient(top, #555, #444, #444, #555);
+	background-image:     -ms-linear-gradient(top, #555, #444, #444, #555);
+	background-image:      -o-linear-gradient(top, #555, #444, #444, #555);
+	border: 1px solid #111;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+	display: block;
+	position: absolute;
+	top: 48px; right: -10px;
+}
+
+#countdown #tiles{
+	position: absolute;
+	z-index: 1;
+	left: 33px;
+}
+
+#countdown #tiles > span{
+	width: 50px;
+	max-width: 50px;
+	font: bold 38px 'Droid Sans', Arial, sans-serif;
+	text-align: center;
+	color: #fff;
+	background-color: #1173B8;
+	border-top: 1px solid #fff;
+	border-radius: 3px;
+	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.7);
+	margin: 0 7px;
+	padding: 18px 0;
+	display: inline-block;
+	position: relative;
+}
+
+#countdown #tiles > span:before{
+	content:"";
+	width: 100%;
+	height: 13px;
+	background: #1173B8;
+	display: block;
+	padding: 0 3px;
+	position: absolute;
+	top: 41%; left: -3px;
+	z-index: -1;
+}
+
+#countdown #tiles > span:after{
+	content:"";
+	width: 100%;
+	height: 1px;
+	background: #1173B8;
+	border-top: 1px solid #333;
+	display: block;
+	position: absolute;
+	top: 48%; left: 0;
+}
+
+#countdown .labels {
+    left: 35px;
+    height: 25px;
+    text-align: center;
+    position: absolute;
+    bottom: 8px;
+}
+
+#countdown .labels li{
+	width: 62px;
+	font: bold 15px 'Droid Sans', Arial, sans-serif;
+	color: #fff;
+	text-shadow: 1px 1px 0px #000;
+	text-align: center;
+	text-transform: uppercase;
+	display: inline-block;
+}
+
+#iconos-evento img{
+	height: 25px;
+	width: 25px;
+}
+
+.b-top{
+	border-top: 1px solid #ccc;
+}
+.b-right{
+	border-right: 1px solid #ccc;
+}
+.b-bottom{
+	border-bottom: 1px solid #ccc;
+}
+.b-left{
+	border-left: 1px solid #ccc;
+}

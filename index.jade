@@ -1,0 +1,286 @@
+
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		meta(http-equiv="X-UA-Compatible" content="IE=edge")
+		meta(name="viewport" , content="width=device-width , initial-scale=1.0, user-scalable=no")
+		title Ecash
+		link(rel="stylesheet", href="./css/main.css")
+		link(rel="stylesheet", href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css")
+		link(rel="stylesheet", href="./css/bootstrap.min.css")
+		link(rel="stylesheet", href="./css/hover.css")
+		link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css")
+		<link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+	body
+		header.bg-blue
+			.container
+				.row
+					.col-lg-12.hidden-xs
+						.col-sm-3
+							a(href="index.html")
+								.logo.pt-7
+									img(src="./img/logo-ecash.png", alt="Logo" style="width: 170px;" )
+						.col-sm-9
+							.pull-right
+								.navegador.pt-14
+									a.pull-right.p-7.text-yellow(href="#") | Entrar 
+									a.pull-right.p-7.text-yellow(href="#")  Registrate 
+									.empresas
+										
+									.menu.pull-right
+										a.pull-left.bg-blue(href="#quiero")
+											p.pr-5.bg-dark-blue.p-7.m-5.hvr-bob Empresas
+										a.pull-left.inverison(href="#quiero")
+											.pr-5.bg-yellow.p-7.m-5.hvr-bob Inversionistas 
+										a.pull-left.p-7(href="#quienes-somos") Ecash 
+										a.pull-left.p-7(href="#staff") Staff 
+										a.pull-left.p-7(href="blog.html") Blog 
+										a.pull-left.p-7(href="#quiero") Contáctanos
+
+									
+					.hidden-lg.hidden-md.hidden-sm.text-center.bg-white
+						.logo.pull-left
+							a(href="index.html")
+								img(src="./img/logo-ecash.png", alt="Logo" style="width: 170px;")
+						nav.navbar.navbar-default.hidden-md
+							.container-fluid
+								.navbar-header
+									button.navbar-toggle.bg-black.collapsed(type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false")
+										span.sr-only toggle navigation
+										span.icon-bar
+										span.icon-bar
+										span.icon-bar
+									.navbar-brand Ecash
+								.collapse.navbar-collapse.bg-white#bs-example-navbar-collapse-1
+									ul.nav.navbar-nav
+										li.active.pb-14
+											a.nav-text.bg-yellow(href="quiero") Invierte
+												span.sr-only current
+										li.active.pb-14
+											a.nav-text.bg-blue(href="quiero") Emprende
+												span.sr-only current
+										li.dropdown.pb-14
+													a.nav-text.pb-28(href="#quienes-somos") Ecash
+												li.pb-14
+													a.nav-text.pb-28(href="#staff") Staff
+												li.pb-14
+													a.nav-text.pb-28(href="blog.html") Blog
+												li.mb-14
+													a.nav-text.pb-28(href="#quiero") Contáctanos
+									
+		.container-fluid
+			.row
+				#carousel-example-generic.carousel.slide(data-ride="carousel")
+					ol.carousel-indicators
+						li.active(data-target="#carousel-example-generic" data-slide-to="0")
+						li(data-target="#carousel-example-generic" data-slide-to="1")
+						li(data-target="#carousel-example-generic" data-slide-to="2")
+					.carousel-inner(role="listbox")
+
+						.item.active
+							img.w-100(src="./img/inversionista.png", alt="First slide")
+							.carousel-caption
+								.button.btn.btn-primary
+									span Ver video
+						.item
+							img.w-100(src="./img/ecash.png", alt="Second slide")
+							.carousel-caption
+								.button.btn.btn-primary
+									span Ver video
+						.item
+							img.w-100(src="./img/mype.png", alt="Third slide")
+							.carousel-caption
+								.button.btn.btn-primary
+									span Ver video
+					a.left.carousel-control(href="#carousel-example-generic" role="button" data-slide="prev")
+						img.icon-prev(src="./img/icono-de.png", alt="" aria-hidden="true")
+						span.sr-only previous
+					a.right.carousel-control(href="#carousel-example-generic" role="button" data-slide="next")
+						img.icon-prev(src="./img/icono-iz.png", alt="" aria-hidden="true")
+						span.sr-only next
+	section#quiero.pt-28.bg-soft-grey.pb-14
+				.container
+					.row
+						.col-lg-7.col-md-7.col-xs-12
+							.row.text-center.text-white
+								.bg-blue.col-lg-6.col-md-6.col-xs-12
+									a(href="#")
+										.recibir.p-14.mb-7
+											.col-md-5.hidden-sm.hidden-xs
+												img.mano(src="./img/b-mano.png", alt="")
+											.col-md-7.col-xs-12
+												.uppercasse.text-14.pt-7
+													p Quiero recibir Financiamiento
+								.col-lg-6.col-md-6.col-xs-12.bg-yellow
+									a(href="#")
+										.rentabilizar
+											.col-md-5.hidden-sm.hidden-xs
+												img.renta(src="./img/b-empresario.png", alt="")
+											.col-md-7.col-sm-12.col-xs-12
+												.uppercasse.text-14.pt-14
+													p Quiero rentabilizar mi dinero
+							.row
+								.col-lg-12.col-md-12.col-xs-12.mb-14
+									.row
+										#carousel-example-generic1.carousel.slide(data-ride="carousel")
+											ol.carousel-indicators
+												li.active(data-target="#carousel-example-generic1" data-slide-to="3")
+												li(data-target="#carousel-example-generic1" data-slide-to="4")
+												li(data-target="#carousel-example-generic1" data-slide-to="5")
+											.carousel-inner(role="listbox")
+
+												.item.active
+													img(src="./img/testimonio1.png", alt="fourth slide")
+												.item
+													img(src="./img/testimonio2.png", alt="fifth slide")
+												.item
+													img(src="./img/testimonio3.png", alt="sixth slide")
+											a.left.carousel-control(href="#carousel-example-generic1" role="button" data-slide="prev")
+												img.icon-prev(src="./img/icono-de.png", alt="" aria-hidden="true")
+												
+												span.sr-only previous
+											a.right.carousel-control(href="#carousel-example-generic1" role="button" data-slide="next")
+												img.icon-prev(src="./img/icono-iz.png", alt="" aria-hidden="true")
+												span.sr-only next
+						.col-lg-5.col-md-5.col-xs-12.mt-14
+							.formulario.p-28.bg-grey
+								.row
+									.text-center.p-21
+										p Déjanos tu comentario y te responderemos a la brevedad.
+								.row.pb-7
+									textarea.form-control(placeholder="Mensaje")
+								.row.pb-7
+									input.form-control(placeholder="Nombre")
+								.row.pb-7
+									input.form-control(placeholder="Telèfono")
+								.row.pb-7
+									input.form-control(placeholder="Correo Elecrónico")
+								.row.pb-7.text-right
+									.btn.btn-primary
+										.text-white
+											span Enviar
+	section#respaldo
+		.container
+			.row
+				.col-xs-12
+					.text-center.p-14.mb-7
+						h1.pt-7.pb-7 Nos Respaldan
+						p.p-21  La industria de finanzas alternativas está tomando más importancia en la nueva era de la revolución digital. El Gobierno Peruano lo sabe, y por eso está apostando por los talentos de los jóvenes peruanos
+						.col-sm-6.mb-7.text-center.col-xs-12
+							a(href="http://www.start-up.pe/")
+								img.entidades(src="./img/logo-startup.png", alt="Logo-startup-peru")
+						.col-sm-6.mb-7.col-xs-12
+							a(href="http://www.produce.gob.pe/")
+								img.entidades(src="./img/logo-m-p.png", alt="Logo-ministerio-de-la-produccion")
+	section#quienes-somos.text-white
+		.container
+			.row.pb-14
+				.text-center
+					h1.p-7 Quienes Somos
+				.col-md-4.col-xs-12.text-center.mb-14
+					img(src="./img/logo-ecash.png", alt="Logo-Ecash")
+				.col-md-8
+					.row.mb-14
+						.col-md-2.p-14.text-right.col-xs-12
+							p NUESTRA VISIÓN
+						.col-md-10.col-xs-11.borderless.p-7
+							.p-25
+								p.text-justify  Construir la futura infraestructura de mercado de capitales para la micro y pequeña empresa.
+					.row.mb-14
+						.col-md-2.p-14.text-right.col-xs-12
+							p NUESTRA MISIÓN
+						.col-md-10.col-xs-12.borderless.p-7
+							.p-25
+								p.text-justify  Mejorar el acceso al financiamiento para la Mype reduciendo los costos de capital a través de nuevas herramientas financieras y contribuir en la educación financiera de nuestros inversionistas.
+	section#staff
+		.container
+			.row
+				.col-xs-12
+					h1.text-center Nuestro Equipo
+					p.p-14.text-justify Especialistas financieros del mercado de capitales y sistema financiero peruano de las instituciones más prestigiosas del país buscan transformar las finanzas en latinoamérica.
+			.row.text-center.text-black
+				.col-md-3.col-xs-12.mb-7
+					a(href="https://pe.linkedin.com/in/dennis-vivas-zelada-b7899452")
+						img(src="./img/foto1.png", alt="cara1")
+						.text-black
+							h5.uppercasse.pt-7 DENNIS VIVAS
+							span Directivo Ejecutivo
+							br
+							i.fa.fa-linkedin-square.text-blue(aria-hidden="true")
+				.col-md-3.col-xs-12.mb-7
+					a(href="https://www.linkedin.com/in/jairmontesarias/en")
+						img(src="./img/foto3.png", alt="cara2")
+						.text-black
+							h5.uppercasse.pt-7 Jair Montes
+							span Director de Finanzas
+							br
+							i.fa.fa-linkedin-square.text-blue(aria-hidden="true")
+				.col-md-3.col-xs-12.mb-7.size-image
+					a(href="https://pe.linkedin.com/in/jan-sandoval-suárez-baa0b895/en")
+						img(src="./img/foto4.png", alt="cara3" style="width:233px; height: 280px;")
+						.text-black
+							h5.uppercasse.pt-7 Jan Sandoval
+							span Director de Inversiones
+							br
+							i.fa.fa-linkedin-square.text-blue(aria-hidden="true")
+				.col-md-3.col-xs-12.mb-7
+					a(href="https://pe.linkedin.com/in/renzo-alvarado-guimaray-32a32437/en")
+						img(src="./img/foto2.png", alt="cara4")
+						.text-black
+							h5.uppercasse.pt-7 Renzo Alvarado
+							span Director de Operaciones
+							br
+							i.fa.fa-linkedin-square.text-blue(aria-hidden="true")
+
+	footer#footer.bg-black
+		.container
+			.row.hidden-sm
+				.col-sm-offset-2.col-sm-2.col-lg-2.col-md-3.col-xs-12.text-white.mb-14
+					ul.list-unstyled.icon-footer.pt-14
+						li.col-xs-4.hvr-bob
+							a(href="https://www.facebook.com/ecashperu/?fref=ts")
+								img(src="./img/iconos-f.png", alt="")
+							
+						li.col-xs-4.hvr-bob
+							img(src="./img/icono-youtube.png", alt="")
+							
+						li.col-xs-4.hvr-bob
+							img(src="./img/icono-in.png", alt="")
+							
+				.col-sm-3.col-xs-12.col-md-3.col-lg-3.borderless.text-white
+					span.uppercasse.text-yellow contacto
+					br
+					span.text-white  (+51) 969237034
+					br
+					span.text-white contacto@ecash.pe
+					br
+					span.text-white  Calle Las Palmeras 184, San Isidro Lima-Perú
+					p.uppercasse.text-yellow blog
+
+				.col-sm-5.col-xs-12.col-lg-5.col-md-4a.borderless.text-white
+					span.uppercasse.text-yellow  legal
+					br
+					span.text-white Marco Legal
+					br
+					span.text-white Política de privacidad
+					br
+					span.text-white términos de condiciones de uso
+
+
+
+script(type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js")
+script(type="text/javascript" src="./js/bootstrap.min.js")
+script(type="text/javascript" src="https://use.fontawesome.com/e1e12dd114.js")
+script(type="text/javascript" src="./js/main.js")
+	
+
+
+
+
+
+
+
+
+
+
+
